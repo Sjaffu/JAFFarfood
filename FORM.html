@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration FORM</title>
+</head>
+<style>
+    *{
+        margin-top: 0;
+        padding: 0%;
+    }
+    body{
+        text-align:center ;
+        background-image: url(https://images.pexels.com/photos/7245366/pexels-photo-7245366.jpeg?cs=srgb&dl=pexels-olga-lioncat-7245366.jpg&fm=jpg);
+        position: relative;
+        font-weight: bold;
+    }
+    #head:hover{
+        color: blue;
+    }
+    #head{
+        font-style: italic;
+    }
+    button:hover{
+        color: blue;
+    }
+    form{
+        font-size: 20px;
+        font-style: italic;
+     
+        
+    }
+   
+    input{
+      height: 40px;
+      border-radius: 4px;
+      width: 20%;
+      font-style: oblique;
+      font-weight: bold;
+      text-align: center;
+       }
+       select{
+           height: 50px;
+           width: 20%;
+           border-radius: 4px;
+       }
+       button{
+           width: 20%;
+           height: 50px;
+           border-radius: 4px;
+           color: black;
+       }
+   
+</style>
+<body>
+    <div id="head">
+        <h1>HELLO  CIVIL ENGINEERS!</h1>
+        <h2>WELCOME TO Construction WORLD</h2>
+        <h3>Register here FOR MORE DETAILS....</h3>
+    </div>
+        <h4 style="text-align: right;">THIS WEBPAGE IS CREATED BY JAFFAR SHAIKH.</h4>
+   
+    <form>
+    <div id="name">
+        <label>Name</label><br><br>
+        <input type="text" name="name" placeholder="ENTER YOUR NAME" pattern="[a-Z]"required/><br><br>
+    </div>
+    <div id="no">
+        <label>PHONE NO.</label><br><br>
+        <input type="tel" name="PHONE NO." placeholder="ENTER YOUR PHONE NO."minlength="10" maxlength="10" pattern="[0-9]"required/><br><br>
+    </div>
+    <div id="username">
+    <label>Username</label><br><br>
+    <input type="text" name="username" placeholder="ENTER YOUR UserNAME"   pattern="[a-Z]"required/><br><br>
+</div>
+    <div id="age">
+        <label>Age</label><br><br>
+        <input type="number" name="AGE" placeholder="ENTER YOUR AGE" pattern="[0-9]"required/><br><br>
+    </div>
+    <div id="gender">
+        <label>GENDER</label><br><br>
+        <select>
+            <option value="MALE">Male</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="OTHER">OTHER</option>
+        </select>
+    </div>
+    <div id="=pass">
+        <label>Password</label><br><br>
+        <input type="password" name="password" placeholder="ENTER YOUR password" pattern="[a-Z]"required/><br><br>
+    </div>
+    <div id="pass">
+        <label> Confirm Your Password</label><br><br>
+        <input type="password" name="password" placeholder="confirm your password" pattern="[a-Z]"required/><br><br>
+    </div>
+</form>
+    <div id="submit">
+        <button type="submit">Register</button><br><br>
+    </div>
+</body>
+</div>
+</html>
